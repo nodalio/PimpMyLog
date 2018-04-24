@@ -9,7 +9,8 @@
  */
 ?>
 <?php
-$softwares_list = array( 'apache' , 'iis' , 'nginx' , 'php' );
+// Skip log type select
+$softwares_list = array( 'nginx' );
 $softwares_all  = array();
 
 foreach ( $softwares_list as $sfw ) {
