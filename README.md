@@ -10,3 +10,6 @@ Support, FAQ, knowledge base, ... are on [support.pimpmylog.com](http://support.
 
 Please star this repository to support *Pimp My Log* !
 
+===========
+
+This fork modifies the core nginx paths file with a search replace pattern for nodalio based servers.
