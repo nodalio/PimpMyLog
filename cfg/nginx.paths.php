@@ -16,7 +16,7 @@
  * @var  array
  */
 $paths = array(
-	'/var/log/nginx/',
+	'REPLACE_WITH_SITE_DIR',
 );
 
 
@@ -32,11 +32,9 @@ $paths = array(
  */
 $files = array(
 	'error' => array(
-		'error.log',
-		'error_log',
+		'SITE_DOMAIN.error.log',
 	),
 	'access' => array(
-		'access.log',
-		'access_log',
+		'SITE_DOMAIN.access.log',
 	),
 );
