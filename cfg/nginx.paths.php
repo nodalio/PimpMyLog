@@ -17,6 +17,7 @@
  */
 $paths = array(
 	'REPLACE_WITH_SITE_DIR',
+	'REPLACE_WITH_STAGING_DIR',
 );
 
 
